@@ -4,12 +4,12 @@
 \alias{select2}
 \title{Select variables}
 \usage{
-select2(x, vars)
+select2(x, ind)
 }
 \arguments{
 \item{x}{A data frame.}
 
-\item{vars}{Either
+\item{ind}{Either
 \itemize{
 \item a character vector of variable names
 \item an integer vector of variable positions
