@@ -2,6 +2,6 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 timesTwo <- function(x) {
-    .Call('_minidplyr_timesTwo', PACKAGE = 'minidplyr', x)
+    .Call(`_minidplyr_timesTwo`, x)
 }
 
