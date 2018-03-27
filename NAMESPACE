@@ -2,3 +2,5 @@
 
 export(filter2)
 export(select2)
+importFrom(Rcpp,sourceCpp)
+useDynLib(minidplyr, .registration = TRUE)

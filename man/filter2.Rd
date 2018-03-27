@@ -25,5 +25,5 @@ Select observations from a data frame.
 \examples{
 filter2(iris, 1)
 filter2(iris, 1:5)
-filter2(iris, rep_len(FALSE, TRUE), nrow(iris))
+filter2(iris, rep_len(c(FALSE, TRUE), nrow(iris)))
 }
