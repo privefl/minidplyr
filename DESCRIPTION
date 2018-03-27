@@ -10,7 +10,8 @@ ByteCompile: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.0.1
 Depends: R (>= 2.10)
-Suggests: 
+Suggests:
+    spelling, 
     dplyr,
     testthat,
     covr
@@ -18,3 +19,4 @@ LinkingTo:
     Rcpp
 Imports: 
     Rcpp
+Language: en-US
